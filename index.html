@@ -190,11 +190,30 @@
             <li class="timeline__item"><span class="timeline__date">25 декабря</span><span class="timeline__text">Престольный праздник — день памяти святителя Спиридона</span></li>
           </ol>
         </div>
+        <div class="about__gallery">
+          <h3 class="about__gallery-title">Освящение храма, 24 мая 2026</h3>
+          <ul class="gallery">
+            <li class="gallery__item"><img src="images/gallery-01.jpg" width="800" height="534" loading="lazy" decoding="async" alt="Мозаичный образ святителя Спиридона под сводом храма и верх иконостаса"></li>
+            <li class="gallery__item"><img src="images/gallery-02.jpg" width="800" height="534" loading="lazy" decoding="async" alt="Иконостас временного храма во время богослужения"></li>
+            <li class="gallery__item"><img src="images/gallery-03.jpg" width="800" height="534" loading="lazy" decoding="async" alt="Мозаичная икона святителя Спиридона на деревянной стене храма"></li>
+            <li class="gallery__item"><img src="images/gallery-04.jpg" width="800" height="534" loading="lazy" decoding="async" alt="Прихожане у крыльца храма встречают митрополита"></li>
+            <li class="gallery__item"><img src="images/gallery-05.jpg" width="800" height="534" loading="lazy" decoding="async" alt="Молящиеся в храме на первой литургии"></li>
+            <li class="gallery__item"><img src="images/gallery-06.jpg" width="800" height="534" loading="lazy" decoding="async" alt="Деревянный храм и прихожане на площадке перед ним"></li>
+          </ul>
+          <p class="photo-credit">Фото: Пензенская епархия</p>
+        </div>
       </section>
 
       <!-- Настоятель -->
       <section class="priest" aria-labelledby="priest-title">
-        <div class="priest__photo placeholder placeholder--arch" role="img" aria-label="Фото настоятеля: ожидается">[Фото настоятеля]</div>
+        <div class="priest__photo photo-arch">
+          <div class="photo-arch__inner">
+            <picture>
+              <source srcset="images/priest.webp" type="image/webp">
+              <img src="images/priest.jpg" width="600" height="720" loading="lazy" decoding="async" alt="Иерей Николай Лоскутов, настоятель храма святителя Спиридона Тримифунтского">
+            </picture>
+          </div>
+        </div>
         <div class="priest__body">
           <p class="priest__eyebrow">Настоятель храма святителя Спиридона Тримифунтского</p>
           <h3 id="priest-title" class="priest__name">Иерей Николай Лоскутов</h3>
@@ -236,7 +255,15 @@
           <h2 id="saint-title" class="section__title">Святыня <span class="hide-mobile">храма</span></h2>
         </div>
         <div class="saint">
-          <div class="saint__photo placeholder" role="img" aria-label="Фото ковчега с частицей мощей: ожидается">[Фото: ковчег с частицей мощей]</div>
+          <figure class="saint__photo photo-frame">
+            <div class="photo-frame__inner">
+              <picture>
+                <source srcset="images/saint.webp" type="image/webp">
+                <img src="images/saint.jpg" width="1000" height="667" loading="lazy" decoding="async" alt="Ковчег с частицей мощей святителя Спиридона и иконы, украшенные цветами, в день освящения храма">
+              </picture>
+            </div>
+            <figcaption class="visually-hidden">Святыни в храме в день малого освящения, 24 мая 2026. Фото: Пензенская епархия</figcaption>
+          </figure>
           <div class="saint__body">
             <h3 class="saint__title">Святитель Спиридон Тримифунтский</h3>
             <p>Епископ города Тримифунта на Кипре, живший в IV веке, участник Первого Вселенского собора. Его нетленные мощи почивают на острове Корфу в Греции.</p>
@@ -258,30 +285,31 @@
         </div>
         <div class="news-grid js-news-grid">
           <article class="news-card">
-            <div class="news-card__media"><span class="news-card__date">[ДАТА]</span></div>
+            <div class="news-card__media"><img class="news-card__img" src="images/news-2026-05-24.jpg" width="800" height="534" loading="lazy" decoding="async" alt="Митрополит Серафим с ковчегом в новом храме"><span class="news-card__date">24 мая 2026</span></div>
             <div class="news-card__body">
-              <h3 class="news-card__title">[Заголовок новости из сообщества]</h3>
-              <p class="news-card__text">[Краткий текст новости в две-три строки]</p>
-              <a href="https://vk.ru/hramspiridonapnz" class="news-card__link" target="_blank" rel="noopener">Читать далее</a>
+              <h3 class="news-card__title">Малое освящение храма и первая Божественная литургия</h3>
+              <p class="news-card__text">Митрополит Пензенский и Нижнеломовский Серафим совершил малое освящение временного храма и возглавил первую литургию. В храм принесены частица мощей святителя Спиридона и его башмачок с острова Корфу.</p>
+              <a href="https://eparkhiya.ru/?p=437861" class="news-card__link" target="_blank" rel="noopener">Читать далее</a>
             </div>
           </article>
           <article class="news-card">
-            <div class="news-card__media"><span class="news-card__date">[ДАТА]</span></div>
+            <div class="news-card__media"><img class="news-card__img" src="images/news-2025-12-25.jpg" width="800" height="534" loading="lazy" decoding="async" alt="Золотые купола храма перед освящением"><span class="news-card__date">25 декабря 2025</span></div>
             <div class="news-card__body">
-              <h3 class="news-card__title">[Заголовок новости из сообщества]</h3>
-              <p class="news-card__text">[Краткий текст новости в две-три строки]</p>
-              <a href="https://vk.ru/hramspiridonapnz" class="news-card__link" target="_blank" rel="noopener">Читать далее</a>
+              <h3 class="news-card__title">Освящены кресты и купола строящегося храма</h3>
+              <p class="news-card__text">В день памяти святителя Спиридона митрополит Серафим освятил кресты и купола храма на улице Рылеева и отметил, что в ближайшее время здесь совершится первое богослужение.</p>
+              <a href="https://eparkhiya.ru/?p=422006" class="news-card__link" target="_blank" rel="noopener">Читать далее</a>
             </div>
           </article>
           <article class="news-card news-card--third">
-            <div class="news-card__media"><span class="news-card__date">[ДАТА]</span></div>
+            <div class="news-card__media"><img class="news-card__img" src="images/news-2025-06-22.jpg" width="800" height="534" loading="lazy" decoding="async" alt="Чин освящения места под строительство храма"><span class="news-card__date">22 июня 2025</span></div>
             <div class="news-card__body">
-              <h3 class="news-card__title">[Заголовок новости из сообщества]</h3>
-              <p class="news-card__text">[Краткий текст новости в две-три строки]</p>
-              <a href="https://vk.ru/hramspiridonapnz" class="news-card__link" target="_blank" rel="noopener">Читать далее</a>
+              <h3 class="news-card__title">Освящено место под строительство храма</h3>
+              <p class="news-card__text">Митрополит Серафим совершил чин освящения места под строительство храма в микрорайоне КПД и призвал пензенцев стать участниками строительства молитвой и делом.</p>
+              <a href="https://eparkhiya.ru/?p=401218" class="news-card__link" target="_blank" rel="noopener">Читать далее</a>
             </div>
           </article>
         </div>
+        <p class="photo-credit news__credit">Фото: Пензенская епархия</p>
         <div class="news__more">
           <span class="news__rule" aria-hidden="true"></span>
           <a href="https://vk.ru/hramspiridonapnz" class="btn btn--primary btn--sm" target="_blank" rel="noopener">Все новости ВКонтакте</a>
